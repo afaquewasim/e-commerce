@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 .main-img {
     width: 1500px;
     height: 300px;
     object-fit: cover;
     /* Ensure the image covers the entire height */
+=======
+.main-img {
+    width: 1500px;
+    height: 300px;
+    object-fit: cover;
+    /* Ensure the image covers the entire height */
+>>>>>>> fcafcfe52fb35f96c10e51c8e3077b43f209484c
 }
