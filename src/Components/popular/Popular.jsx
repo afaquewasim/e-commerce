@@ -6,7 +6,7 @@ const Popular = () => {
     return (
         <div className='flex flex-col items-center my-10'>
             <h1 className='text-3xl mt-4 mb-2 text-center uppercase'>Popular in women</h1>
-            <hr className='w-[100px] mb-4 h-[6px] bg-black border-0 rounded-lg'/>
+            <hr className='w-[100px] mb-4 h-[6px] border-0 rounded-lg bg-[#797979]'/>
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-2 items-center justify-items-center'>
                 {data.map((item, i) => {
                     return <Item
