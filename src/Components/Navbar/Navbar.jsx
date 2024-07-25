@@ -15,7 +15,7 @@ const Navbar = () => {
     return (
         <div className='w-full h-fit z-10 bg-white'>
             <div className="flex justify-between items-center text-2xl p-2">
-                <div className='mx-2'><Link to='/'>E-Commerce</Link></div>
+                <div className='mx-2 text-green-900'><Link to='/'>E-Commerce</Link></div>
                 <div className='hidden md:flex'>
                     <li className='mx-4 cursor-pointer'><Link to='/'>Home</Link></li>
                     <li className='mx-4 cursor-pointer'><Link to='/men'>Men</Link></li>
